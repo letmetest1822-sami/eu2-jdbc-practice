@@ -22,15 +22,15 @@ public class TC08VerifyHouseMembers {
 /**
  * Verify house members
  * 1. Send a get request to /houses. Request includes :
- * • Header Accept with value application/json
- * • Query param key with value {{apiKey}}
+ *    • Header Accept with value application/json
+ *    • Query param key with value {{apiKey}}
  * 2. Verify status code 200, content type application/json; charset=utf-8
  * 3. Capture the id of the Gryffindor house
  * 4. Capture the ids of the all members of the Gryffindor house
  * 5. Send a get request to /houses/:id. Request includes :
- * • Header Accept with value application/json
- * • Query param key with value {{apiKey}}
- * • Path param id with value from step 3
+ *    • Header Accept with value application/json
+ *    • Query param key with value {{apiKey}}
+ *    • Path param id with value from step 3
  * 6. Verify that response contains the same member ids as the step 4
  */
 

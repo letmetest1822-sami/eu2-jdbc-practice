@@ -63,6 +63,7 @@ public class TC07VerifyNameSearch {
         assertEquals(response2.contentType(), "application/json; charset=utf-8");
 
         //     * 6. Verify response body is empty
+        System.out.println(response2.prettyPrint());
         assertTrue(response2.body().asString().isEmpty());
 
     }
